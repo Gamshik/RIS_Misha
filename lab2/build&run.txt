@@ -1,0 +1,5 @@
+build:
+g++ main.cpp file_utils.cpp math_utils.cpp thread_utils.cpp -o main
+
+run:
+main.exe
