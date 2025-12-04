@@ -1,0 +1,4 @@
+build:
+g++ main.cpp benchmark.cpp calculation.cpp gui.cpp -lgdi32 -o main
+run:
+main.exr
