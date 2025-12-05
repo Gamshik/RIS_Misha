@@ -1,0 +1,5 @@
+Consumer.exe
+Producer.exe D:\ProgrammingAndProjects\Studies\7sem\RIS_Misha\lab5\Images 224 32 64
+
+Consumer.exe multi
+Producer.exe D:\ProgrammingAndProjects\Studies\7sem\RIS_Misha\lab5\Images 224 32 64 multi
