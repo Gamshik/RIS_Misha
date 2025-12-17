@@ -1,0 +1,20 @@
+Generator.exe "D:\ProgrammingAndProjects\Studies\7sem\RIS\lab8\Data"
+
+SolverSingleThread.exe "D:\ProgrammingAndProjects\Studies\7sem\RIS\lab8\Data"
+
+MultiThread.exe "D:\ProgrammingAndProjects\Studies\7sem\RIS\lab8\Data"
+
+g++ -o main .\main.cpp
+
+main.exe "D:\ProgrammingAndProjects\Studies\7sem\RIS\lab8\Data"
+
+g++ main.cpp -o main.exe -I"C:\Program Files (x86)\Microsoft SDKs\MPI\Include" -L"C:\Program Files (x86)\Microsoft SDKs\MPI\Lib\x64" -lmsmpi
+
+mpiexec -n 4 main.exe "D:\ProgrammingAndProjects\Studies\7sem\RIS\lab8\Data"   
+
+wsl
+wsl -d Ubuntu
+passw: 1
+g++ linux_main.cpp -pthread -o linux_main
+cd /mnt/d/ProgrammingAndProjects/Studies/7sem/RIS/lab8
+./linux_main /mnt/d/ProgrammingAndProjects/Studies/7sem/RIS/lab8/Data
